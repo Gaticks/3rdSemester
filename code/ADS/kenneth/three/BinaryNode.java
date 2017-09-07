@@ -1,6 +1,6 @@
 package ADS.kenneth.three;
 
-public class BinaryNode<T>{
+public class BinaryNode<T extends Comparable<T>>{
 
     private T element;
     private BinaryNode<T> left;
