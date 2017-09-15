@@ -1,18 +1,23 @@
 package ADS.kenneth.three;
 
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
 public class BinarySearchTree <T extends Comparable<T>>{
 
     private BinaryNode<T> rootNode;
     private int size;
 
     public BinarySearchTree() {
-        rootNode = null;
-        this.size = 0;
+        throw new NotImplementedException();
+
+//        rootNode = null;
+//        this.size = 0;
     }
 
     public BinarySearchTree(T element) {
-        this.size = 1;
-        rootNode = new BinaryNode<T>(element);
+        throw new NotImplementedException();
+//        this.size = 1;
+//        rootNode = new BinaryNode<T>(element);
     }
 
     public void add(T element) {
