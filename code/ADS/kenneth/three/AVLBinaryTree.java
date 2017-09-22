@@ -137,6 +137,7 @@ public class AVLBinaryTree <T extends Comparable<T>> implements IBinarySearchTre
 
             return;
         }
+        
         //case 3
         if (nodeToDelete.getLeft() != null && nodeToDelete.getRight() != null) {
             System.out.println("this is a case three, the node to be deleted have two children");
