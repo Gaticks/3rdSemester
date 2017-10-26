@@ -18,7 +18,6 @@ import DBS2.ExcelHandler;
 import jxl.read.biff.BiffException;
 import jxl.write.WriteException;
 
-import java.io.File;
 import java.io.IOException;
 import java.sql.*;
 
